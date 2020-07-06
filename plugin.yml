@@ -3,3 +3,8 @@ version: 1.0.0
 api: 3.0.0
 main: MXGLatoya\AntiCheat
 author: MXGLatoya
+
+#Putting #s because I am lazy.
+
+# Bypassing flying security check. anticheat.bypass.fly
+# Bypassing Gamemode security check. anticheat.bypass.gamemode
