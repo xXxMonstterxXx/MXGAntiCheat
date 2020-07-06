@@ -93,7 +93,7 @@ class AntiCheat extends PluginBase implements Listener {
    
      $player = $event->getPlayer();
 
-        if ($player->getPing() > 200) {
+        if ($player->getPing() > 350) {
    	
       
       
