@@ -57,7 +57,7 @@ class AntiCheat extends PluginBase implements Listener {
          $player = $event->getPlayer();
         $packet = $event->getPacket();
         if ($packet instanceof LoginPacket) {
-            if ($packet->serverAddress === "reeeunknown.org") {
+            if ($packet->serverAddress === "fallenkitpvp.mcpe.lol") {
                 $player->kick(Color::RED . "Kicked by MXGAntiCheat.\n" . Color::YELLOW . "Reason: " . Color::WHITE . "Proxy\n" . Color::AQUA . "Plugin made by: " . Color::YELLOW . "MXGLatoya#1616", false);
             }
             if ($packet->clientId === 0) {
